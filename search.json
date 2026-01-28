@@ -1,0 +1,352 @@
+[
+  {
+    "objectID": "w01_MLIntroduction.html",
+    "href": "w01_MLIntroduction.html",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "",
+    "text": "Course and textbook objective: Democratizing machine learning with commonly accessible soft- and hardware to regain control over our destiny rather than letting robots or artificial intelligence (AI) agents rule us.\nThe job of robots and AI agents should support us by making our life easier.\nHowever, we are running the risk of becoming too dependent on, monitored or manipulated by algorithms.\n\nExamples:\n\nFinding our way around a new city. Just 2 decades ago we would study a road map in advance of our trip and memorize key turning points. On our way we would make extensive use of guiding landmarks and road signs. Furthermore, we have a broad overview of the area that we traverse, rather than a point-to-point conception of space. This would train our hippocampus, which houses the brain’s function of spatial orientation. This training is lost with our blind reliance of GPS navigation.\nSelf-driving vehicles. The objective is to reduce accidents and minimize congestion relative to human abilities. We are not there (yet).\nUse AI to answer singular questions and assignments, rather than learning and memorizing the information. If we don’t learn the material, then our brain will never be given to connect bits of information together to generate knowledge and synthesize the knowledge into innovations.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "w01_MLIntroduction.html#lecture01-an-introduction-to-machine-learning",
+    "href": "w01_MLIntroduction.html#lecture01-an-introduction-to-machine-learning",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "",
+    "text": "Course and textbook objective: Democratizing machine learning with commonly accessible soft- and hardware to regain control over our destiny rather than letting robots or artificial intelligence (AI) agents rule us.\nThe job of robots and AI agents should support us by making our life easier.\nHowever, we are running the risk of becoming too dependent on, monitored or manipulated by algorithms.\n\nExamples:\n\nFinding our way around a new city. Just 2 decades ago we would study a road map in advance of our trip and memorize key turning points. On our way we would make extensive use of guiding landmarks and road signs. Furthermore, we have a broad overview of the area that we traverse, rather than a point-to-point conception of space. This would train our hippocampus, which houses the brain’s function of spatial orientation. This training is lost with our blind reliance of GPS navigation.\nSelf-driving vehicles. The objective is to reduce accidents and minimize congestion relative to human abilities. We are not there (yet).\nUse AI to answer singular questions and assignments, rather than learning and memorizing the information. If we don’t learn the material, then our brain will never be given to connect bits of information together to generate knowledge and synthesize the knowledge into innovations.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "w01_MLIntroduction.html#useful-websites",
+    "href": "w01_MLIntroduction.html#useful-websites",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "2 Useful Websites",
+    "text": "2 Useful Websites\n\n&lt;www.statlearning.com&gt;\nhttps://cran.r-project.org/web/views/MachineLearning.html\n&lt;www.kaggle.com&gt;",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "w01_MLIntroduction.html#r-installation",
+    "href": "w01_MLIntroduction.html#r-installation",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "3 R-Installation",
+    "text": "3 R-Installation\n\nIt is important that we all work with the same version of R to guarantee that the assigned labs are working properly.\nPlease see RStudioTutorial2024.pptx to get a common foundation.\nHere is an example on how to use GitHub’s Copilot in RStudio to code tasks. Note we frequently observe than AI is generating a substantial amount of unnecessary code and cannot address specialized tasks that have not previously been trained.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "w01_MLIntroduction.html#a-critical-reflection-on-large-language-models",
+    "href": "w01_MLIntroduction.html#a-critical-reflection-on-large-language-models",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "4 A Critical Reflection on Large Language Models",
+    "text": "4 A Critical Reflection on Large Language Models\n\nThe latest advances in artificial intelligence are the Large Language Models with the capabilities to generate data. This however is just based on randomization and merger of previously trained\nSee the GPT-4.o video.\nKey question: how will this influence our future?",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "w01_MLIntroduction.html#quiz-procedure-and-entry-questionnaire",
+    "href": "w01_MLIntroduction.html#quiz-procedure-and-entry-questionnaire",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "5 Quiz Procedure and Entry Questionnaire",
+    "text": "5 Quiz Procedure and Entry Questionnaire\n\nPlease return the entry questionnaire by the end of this meeting. It will me tailor this course to your specific needs.\nPlease use our course’s ELEARNING site to practice the ungraded Quiz00.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "w01_MLIntroduction.html#historical-background",
+    "href": "w01_MLIntroduction.html#historical-background",
+    "title": "Week01: An Introduction to Machine Learning, Matrices and R Installation",
+    "section": "6 Historical Background",
+    "text": "6 Historical Background\n\nAI objective: Perform predictions of target outcomes \\(y\\) or future actions by using specific AI rules (i.e., functions \\(f(x)\\)) based on observable feature information \\(x\\).\n\n\n\n\nFigure 1.1 - Artificial intelligence, machine learning, and deep learning\n\n\n\n6.1 Artificial Intelligence\n\nIn the 1950 computer pioneers start asking the question “Can computers think?”.\nUltimately its definition was reduced to automating intellectual tasks normally performed by humans.\nThe tasks were hardcoded as “rules” and lead to symbolic AI and expert systems in the 1980.\nAI can solve well-defined logical problems, but it cannot handle complex and fuzzy problems.\n\n\n\n\nFigure 1.2 - Machine learning: a new programming paradigm\n\n\n\n\n\n6.2 Machine Learning (ML)\n\nThe objective of machine learning is to develop computer algorithms that transform data into intelligent actions.\nML started in the 1990s asking the question “can a computer discover hidden rules by processing data?”\nIn supervised ML humans input data and answers, subsequently the computer finds rules connecting data with answers (target variable).\n\nThe target variable can be metric (value prediction) or categorical (class prediction)\n\nThis is achieved by training the “machine” with the available features and their associated outcome.\nOnce rules are established with some confidence, they can be used to perform predictions of answers based on new input features.\nIn unsupervised ML an algorithm searches for a structure (i.e., a signal or pattern) in the data to establish homogeneous groups of observations.\nThe identified groups are expected to be as distinct (heterogeneous) as possible from each other.\nThis allows, for instance, [a] to generalize the characteristics of individual observations by their associated group attributes, or [b] find uniquely outlying observations that don’t match up with any of the identified groups.\nML learning algorithms become progressively less structured, allowing us to model more and more complex patterns in the data. This loss of structure hinders interpretation of the models and diminishes the ability to generalize the models to independent data sources.\nIn general, ML is tightly related to statistics but is applied on large and complex data sets for which standard parametric statistical models become too rigid.\nProgress in ML is mainly driven by statisticians and computer scientists as well as advancing technology and automated data collection.\nThe different backgrounds of statisticians and computer science can lead to inconsistencies and rediscovery of procedures and problems, which already have been address in the other discipline.\nML is applied on big data which are characterized by [a] volume, [b] velocity, [c] variety (heterogeneity) and [d] veracity (that is, certainty or the lack thereof).\nBig unbiased data are usually needed to learn patterns in highly complex functional relationships among the features.\nCriticism of ML:\n\nIt is data driven and ideas are “proven” empirically rather than being rooted in a logical organized deductive theoretical system.\nThere is always the risk to overfit the functional relationship so it just becomes training sample specific rather than being able to generalized to new external data.\n\n\n\n\n\n6.3 Types of Models\n\n6.3.1 Descriptive Models\n\nAims at describing the data and finding underlying patterns in observed data.\nThe employed method of describing the data already acts as filter by letting specific characteristics of the data pass through whereas other characteristics of the data are ignored. We need to understand the properties of these filters.\nExamples: Loess smoother in a scatterplot.\n\n\n\n6.3.2 Inferential Model\n\nEvaluates theories, hypotheses and assumptions based on a set of given sample data and statistical models.\nThat is, inferential models start with a conjecture about the underlying data generating process.\nDeeply rooted in probability theory to capture the inherent randomness in the sample data.\nAllows data analyses in the Bayesian domain in which the conjectures have a prior distribution, the observed sample data follows a likelihood model, and the resulting model parameters have a posterior distribution.\n\n\n\n6.3.3 Predictive Models\n\nThe objective of predictive models is to provide the most accurate prediction of an outcome based on independent features.\nThe simplest form of predictive methods is the multiple linear regression:\n\nThe underlying data generating processes is assumed to have the form \\[Y = \\beta_0 + \\beta_1 \\cdot X_1 + \\cdots + \\beta_K \\cdot X_K + \\varepsilon\\]\nThe estimated prediction for the \\(i^{th}\\) observation in the \\(K + 1\\) estimated parameters \\(\\beta_k\\) becomes \\[\\hat{y}_i = b_0 + b_1 \\cdot x_{i1} + \\cdots + b_K \\cdot x_{iK}\\]\n\nThe predictive model is trained on sample data in the hope that the model generalizes well to independent objects described by their features. Therefore, the model is evaluated based on test data.\nCaveat: if there is no signal in the data not even the most sophisticated model will lead to meaningful predictions.\nA predictive model can always be designed in a way that its prediction on training data is perfect but leads to a disastrous prediction for independent test data.\nThus, a perfect balance must be found between the model bias and the error variance of the predictive model structure. This leads for predictive models to:\n\nEvaluating different statistics describing the model fit.\nProperly transforming the data to become adequate for the underlying model structure by feature engineering (see EPPS6323).\nThis may require tuning hyper-parameters, perhaps by resampling techniques and cross-validation.\nReducing the dimensionality (i.e., complexity) of the model to eliminate irrelevant features using regularization techniques.\nThe machine learning approaches of tree-based models and support vector machines are historically key techniques, but their performance is now surpassed by neural networks. Nevertheless, the simplicity and lower data requirements of simpler models is still a main advantage.\n\nComplex models are mainly black boxes, and their interpretation becomes virtually impossible.\nTraining predictive models is usually an iterative process.\n\n\n\n\n6.3.4 Example of a Predictive Model: Deep Learning\n\nDeep Learning (DL) is a specialized subfield of predictive modelling based neural networks. Small computational neural networks emerged in the early 1960ies. They were able to handle only a small set of hidden layers and thus provided a coarse approximation of the underlying data structure.\nDeep learning is based on very simple data processing units. A sheer multitude of the units are pooled together into layers which are stringed together in a non-linear manner.\nThe objective is to find an increasingly more accurate functional representations of the outcome \\(y\\).\nWith the increase in affordable computing power, development of numerical robust algorithms and an increasing availability of large data, DL with many hidden layers became prominent in the early 2010.\n“Deep” does not refer to a deeper understanding of the task.\nDL is based on the mathematical framework of neural networks but does not have any relationship to neurobiology (i.e., neurobiology studies how our brains work).\nOne can think of neural networks as a series of non-linear filters (the layers) that distill the input information which is measured by the features \\(X\\) into a “purified version” that is closely related to the prescribed output \\(y\\).\nBuilding blocks of understanding neural networks are “logistic regression” and gradient descent optimizers.\nA sequence of layers weight feature input vectors \\(\\mathbf{x}_i\\) that will generate an output label \\(y_i\\): \\[y_i = f_{NN}(\\mathbf{x}_i) = f_3(f_2(f_1(\\mathbf{x}_i)))\\]\nDL involves more than two hidden layers. In \\(y_i = f_{NN}(\\mathbf{x}_i) = f_3(f_2(f_1(\\mathbf{x}_i)))\\) the function \\(f_3\\) is the final output layer.\n\n\n\n\nFigure 1.9 - The loss score is used as a feedback signal to adjust the weights\n\n\n\nThe objective of specifying the \\(l\\)-th layer functions \\(f_l()\\) is to minimize the prediction error, which is measured by a loss score functions.\n\n\n\n\n\n6.4 Criticism\n\nBlack box approach: The focus of machine learning is to perform accurate predictions rather than to provide meaningful explanations and insights into the underlying structure within data (e.g., tests of regression models in econometrics)\nMachine learning cannot ask relevant questions. Thus, an analyst is needed to train the machine with relevant data.\nMachine learning algorithms are always biased towards an inherent structure of the input training data (recall earlier filter argument).\nMachine learning needs to find a balance of distinguishing noise from relevant structures to avoid overfitting the model to the just the training data.\n\n\n\n\n6.5 Steps of Machine Learning Process\n\nCollecting data\nExploring and preparing data. Feature and target engineering.\nTraining an appropriate model to the data (or set of models and average their predictions)\nEvaluation of the model’s performance\nImproving model performance",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk01-Machine Learning Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EPPS6326_material_quarto2",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html",
+    "href": "w00_IntroToScriptsAndData.html",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "",
+    "text": "An excellent website outlining data operations and basic data analysis with R can be found at http://www.statmethods.net. It makes frequent references to the book by Kabacoff.\nExplore the R-Project website: https://www.r-project.org/\nExplore RStudio’s website: https://www.rstudio.com/",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#file-extensions",
+    "href": "w00_IntroToScriptsAndData.html#file-extensions",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "3.1 File Extensions",
+    "text": "3.1 File Extensions\nConcept of environment, history file and script. The associate file extensions are:\n\n*.RData or *.rda: Copy of the environment with all its data objects and custom user functions.\n*.Rhistory contains all commands issued during a session at the command prompt &gt;.\n*.R is a file that contains scripts, which can be a set of basic R data analysis commands, individual functions, or an elaborate program.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#working-directory",
+    "href": "w00_IntroToScriptsAndData.html#working-directory",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "3.2 Working Directory",
+    "text": "3.2 Working Directory\nGet and change the working directory where your scripts and workspace are stored and searched by default.\nEnter the command getwd() into the editor window and select “Run” from the toolbar. Your current working directory is displayed in the Console below.\nEach command in R ends with parentheses, e.g., getwd(), which may include optional parameters. Even if no options are specified a function always ends with parentheses ( ).\n\n3.2.1 Comments:\n\nThe returned string, e.g., \"C:/Users/Michael/Documents\", is the path to the working directory. In R strings are always enclosed by quotation marks, i.e., \"…\".\nThe Windows convention is to separate sub-directories by a backward slash \\.\nHowever, R uses the forward slash / or alternatively a double backward slash \\\\.\nIn R the single backslash \\ is reserved to start an escape character, for instance, \\n becomes a line break and carriage return in text output, e.g., &gt; cat(\"First line\\n Second line\") is shown in the Console on two lines.\nThe character &gt; in the Console window is the command prompt which indicates that R is ready to receive new commands. It shows up when R completed executing a script.\nThe ESC key or pressing the stop icon in the Console window – available while a script is executing – can terminate the ongoing execution of a script.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#receiving-help",
+    "href": "w00_IntroToScriptsAndData.html#receiving-help",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "3.3 Receiving Help",
+    "text": "3.3 Receiving Help\nReceiving help at the command prompt &gt; in the Console:\n\n&gt; help(\"FunctionName\") or short &gt; ?FunctionName\nThis searches all active libraries (currently linked to your session) for the help on this function.\nOr through the HTML-help menu system:\n\n\n\n\nR Help System\n\n\n\nFuzzy help can be obtained with the double question mark &gt; ??PartName or help.search(\"PartName\"). This searches all installed libraries for the help on functions, data or vignettes containing the string “PartName”.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#make-your-working-directory",
+    "href": "w00_IntroToScriptsAndData.html#make-your-working-directory",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "4.1 Make your Working Directory",
+    "text": "4.1 Make your Working Directory\n\nMy suggestion is that you setup a specific directory on your hard- or jump-drive for this course, e.g., a dedicated folder.\nYou store your scripts, data etc. in this directory or its subdirectories.\n\n\n\n\nSource Button\n\n\n\nThen set your working directory to this location with the command:\n&gt; setwd(\"E:\\\\Fall2024\\\\GettingStartedWithR\")\nNotice the double backward slash \\\\ here as substitute for the single forward slash / and the use of the quotation \"…\" to enclose the directory string.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#interacting-with-the-r-console",
+    "href": "w00_IntroToScriptsAndData.html#interacting-with-the-r-console",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "4.2 Interacting with the R-Console",
+    "text": "4.2 Interacting with the R-Console\n\nCollections of editor commands (or programs) can be stored in external *.R script-files (see File menu)\nSingle commands in the script editor can be run from the command prompt or with Run for a highlighted line or set of highlighted lines in a script.\nTo run a script (all lines in your editor) use the Source button.\n\n\n\n\nSource Button\n\n\n\nIn the Console window the arrow Up and Down keys scrolls through the History of previously issued R commands.\nIn the Console window previously issued commands can be edited by moving with the arrow keys the edit prompt to a particular location of your command line.\nWhile being in the Console window, commands with their list of parameters can be broken over several lines. Then the continuing prompt + will be displayed automatically at the beginning of a new line until the command is completed.\nTo clean a cluttered Console window use the key combination Ctrl-L or use the broom icon.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#variable-names",
+    "href": "w00_IntroToScriptsAndData.html#variable-names",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "5.1 Variable Names",
+    "text": "5.1 Variable Names\n\nNames must begin with a letter and can consist of an alpha/numeric combination of letters including the period . and/or the underscore _\nNote: Specific characters and keywords such $ @ & and % or + - * / and ^ cannot be used because they have special meanings. For a full list see &gt; ?Reserved\nWarning: Variable and function names in R are case sensitive, e.g., my.Var and my.var are different data objects (⇒ characters in wrong cases are extremely difficult to spot in a script)\nTip: Name variables properly so an external reader or you, after a few weeks have passed, can understand what you were doing.\nUse the dot to structure associated variable names, e.g., sales.plano and sales.dallas, or the camelback convention salesPlano and salesDallas\nJust for experts: The document google-r-style.pdf suggests professional naming and typesetting conventions of your R code.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#managing-objects-in-environment",
+    "href": "w00_IntroToScriptsAndData.html#managing-objects-in-environment",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "5.2 Managing Objects in Environment",
+    "text": "5.2 Managing Objects in Environment\n\nAny function or data structure that is defined during a R-session becomes an object in the Environment\nThese can be removed from the Environment with the remove function:\n&gt; rm(ipold)\nTo clean everything from the environment use the nested commands &gt; rm(list=ls()) or the broom icon in the Environment menu bar.\nWarning: if you happen to name a variable or function identically to an existing R object, which already exists in the search path of your session, that object will be masked and is no longer directly accessible:\n&gt; pi                # gives the system constant 3.141593\n&gt; pi &lt;- 2.71        # this masks the system constant pi\n&gt; base::pi          # pi still be found in its library base. Note the \"::\"\n&gt; rm(pi)            # removes user's pi and makes the constant pi available",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#hard-wired-values-in-r",
+    "href": "w00_IntroToScriptsAndData.html#hard-wired-values-in-r",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "5.3 Hard-wired Values in R",
+    "text": "5.3 Hard-wired Values in R\n\nLogical values T and F (alternatively TRUE and FALSE can be used)\nAn object without content has the storage value NULL\nImpossible operations, such as log(-1), lead to a not-a-number NaN.\nMissing values have the value NA, which stands for not available.\nSome predefined numbers are infinity Inf and pi (that is, \\(\\pi = 3.141593\\))",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#data-sets",
+    "href": "w00_IntroToScriptsAndData.html#data-sets",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "6.1 Data-Sets",
+    "text": "6.1 Data-Sets\n\nFor statistical analyses data-sets are usually arranged in rectangular data-frames and imported from external files (such as SPSS, STATA, EXCEL or DBASE) or embedded in workspaces (with the extension *.RData) of libraries.\nFor instance, to read an SPSS file use:\n&gt; library(foreign)  # makes import functions available during a session\n&gt; setwd(\"E:\\\\Lectures2022\\\\WorkingWithR\")\n&gt; MyPower &lt;- read.spss(\"DallasTempPower.sav\", to.data.frame=T)\nor more compactly skipping the attachment of library foreign:\n&gt; MyPower &lt;- foreign::read.spss(\"DallasTempPower.sav\", to.data.frame=T)\nSome data file types can also be imported using File ► Import Dataset or with the “Import Dataset” button in the Environment window. Note, however, using the menu violates the reproducible paradigm. Furthermore, the data are imported as a tibble and not a data.frame which can lead to problems.\nNotice that the object MyPower is added as data-frame to your Environment.\nTo calculate a new variable and assign it to the data-frame use the syntax df$NewVar, e.g.\n&gt; MyPower$DiffTemp &lt;- MyPower$MaxTemp - MyPower$MinTemp\nCheck the class of an object use:\n&gt; class(MyPower)\n[1] \"data.frame\"\nTo preview the data-frame double click on it in the Environment.\nEach column in a data-frame has an associated elementary data type.\nSome R libraries also include their own data-frame. These can be opened by the command:\n&gt; data(\"CPS1985\", package=\"AER\")",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#elementary-data-types-mode",
+    "href": "w00_IntroToScriptsAndData.html#elementary-data-types-mode",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "6.2 Elementary Data Types (mode)",
+    "text": "6.2 Elementary Data Types (mode)\nWithin a data-frame the variables can be of any elementary R data type (also called mode):\n\n6.2.1 logical\nFALSE or TRUE (also binary 0 or 1 and abbreviated F or T), e.g.:\ndo.I.make.sense &lt;- TRUE\n\n\n6.2.2 character strings\nAlways enclosed by single or double quotation marks, e.g.:\nmy.name &lt;- \"Michael\"\n\n\n6.2.3 factors\nInternally each value is stored with a specific integer number. Each integer has a descriptive label assigned to it, which is displayed.\nNotice: factor level values are not enclosed within quotation marks. For instance:\n&gt; MyPower$Month\n[1] JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC \n[13] JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC \n[25] JAN FEB MAR APR MAY JUN JUL AUG\nLevels: JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC\nIndividual factor levels group the observations according to their specific factor level.\nThe syntax MyPower$Month addresses the factor variable Month in the data-frame MyPower.\n\n\n6.2.4 numeric\nEither real integer, double precision, or complex numbers (not used in this course).\n\nTrue integer values can be enforced with the added symbol L:\n&gt; two &lt;- 2L\n&gt; typeof(two)\n[1] \"integer\"\nIntegers, under specific circumstance, are treated as real numbers or may be coerced to real numbers:\n&gt; two.sq &lt;- two * 2.0\n&gt; typeof(two.sq)\n[1] \"double\"\nVery small remainders after internal rounding operations are interpreted as zeros, such as:\n&gt; (sqrt(2))^2 - 2\n[1] 4.440892e-16\nThis discrepancy is due to rounding errors associated with floating point computations, i.e. taking the square root and squaring the remaining results. This problem applies to all software environments, operating systems and computer chips dealing with floating point numbers.\nFloating point numbers with an infinite number of digits can only be digitally approximated up to a given depth due to the limited number of bits implemented within operating systems.\nE.g., while the constant \\(\\pi = 3.14\\ldots\\) has an infinite number of digits, only the first 16 can be numerically represented:\n&gt; options(digits=20)\n&gt; pi\n[1] 3.1415926535897931\n\n\n\n6.2.5 Dates\nDates come in different formats. This course will not cover dates.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#basic-data-objects-in-r",
+    "href": "w00_IntroToScriptsAndData.html#basic-data-objects-in-r",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "6.3 Basic Data Objects in R",
+    "text": "6.3 Basic Data Objects in R\n\n6.3.1 scalar\nAn individual datum. All data objects are composed of a collection of scalars.\n\n\n6.3.2 vector\nAtomic data structure that collects more than one value of identical mode. Example:\n&gt; score &lt;- c(23,53,45,30,53,60)\nor\n&gt; catName &lt;- c(\"Austin\",\"Gretchen\",\"Charlie\")\nwhere the function c() concatenates – combines – several scalars into a vector.\n&gt; length(score)  # gives the number of elements in the vector\nIndividual elements of a vector can be addressed by indices, e.g. score[2], score[3:5], score[-2], or leading to an outside range error score[99].\nNote: if a printed vector stretches over several rows in the console the position of the first value in each row will be numbered by [elementNumber]\nMixture of scalars with different data types will be coerced to the lowest level, i.e., characters:\n&gt; mixture &lt;- c(1,2,3,T,pi,\"A\")\n&gt; mixture\n[1] \"1\" \"2\" \"3\" \"TRUE\" \"3.14159265358979\" \"A\"\n\n\n6.3.3 matrix\nTwo-dimensional arrangement of a set of vectors that are all of the same mode and length.\n\n\n6.3.4 data frames\nCollection of vectors of the same length but perhaps different mode per column.\n\n\n6.3.5 list\nCollection of vectors of any type and length.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#inspecting-data-objects",
+    "href": "w00_IntroToScriptsAndData.html#inspecting-data-objects",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "6.4 Inspecting Data Objects",
+    "text": "6.4 Inspecting Data Objects\nTo obtain information about a data object and to look at its structure use the function str():\n&gt; str(MyPower)\n'data.frame':   32 obs. of  8 variables:\n $ SeqID   : num  1 2 3 4 5 6 7 8 9 10 ...\n $ Year    : num  2009 2009 2009 2009 2009 ...\n $ Month   : Factor w/ 12 levels \"JAN\",\"FEB\",\"MAR\",...: 1 2 3 4 5 6 7...\n $ DaysBill: num  34 29 30 32 29 30 32 29 30 31 ...\n - attr(*, \"codepage\")= int 1252",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#analysis-results-and-plots",
+    "href": "w00_IntroToScriptsAndData.html#analysis-results-and-plots",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "8.1 Analysis Results and Plots",
+    "text": "8.1 Analysis Results and Plots\nThe easiest way of saving [a] Console output and [b] generated plots in the graphics window are to copy and paste them into a graphically enhanced text editor such as Word.\nImportant: Any text output needs to be typeset in a fix pitch font such as Courier New. Otherwise the aligned column formatting of the output will be lost. Perhaps also reduce the font size and line-spacing of imported output as well as switch to a landscape layout for long lines of output.",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#data",
+    "href": "w00_IntroToScriptsAndData.html#data",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "8.2 Data",
+    "text": "8.2 Data\nThe collection of all variables, data-frames and functions, which were created during a session, can be saved for subsequent sessions in a workspace.\nBefore saving the workspace non-desired data-objects, variables and functions should be dropped with the remove command:\n&gt; rm(objectName)",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#exporting-data",
+    "href": "w00_IntroToScriptsAndData.html#exporting-data",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "8.3 Exporting Data",
+    "text": "8.3 Exporting Data\nData-frames within the workspace can also be exported into different file formats (see the package foreign or connections to SQL servers).",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#command-history",
+    "href": "w00_IntroToScriptsAndData.html#command-history",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "8.4 Command History",
+    "text": "8.4 Command History\nAll commands, which were issued during session, can be saved into a history file.\n\n\n\nHistory Panel",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#exercise",
+    "href": "w00_IntroToScriptsAndData.html#exercise",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "9.1 Exercise",
+    "text": "9.1 Exercise\n&gt; x &lt;- seq(0.1, 2, by=0.1)  # sequence of numbers: 0.1, 0.2, …, 2\n&gt; x                          # show numbers\n&gt; y &lt;- log(x)               # calculate the natural logarithm\n&gt; plot(x, y)                # Plot y against x\n&gt; plot(y ~ x)               # same plot conceiving y as a function of x\n&gt; help(plot)                # Explore options\n&gt; plot(x, y, type=\"l\")      # Connect points by lines",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#plots-window",
+    "href": "w00_IntroToScriptsAndData.html#plots-window",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "9.2 Plots Window",
+    "text": "9.2 Plots Window\nSelect in the Plots window scroll through your list of plots with the arrow icons:\n\n\n\nPlot Window with Logarithm Function",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#exercise-continued",
+    "href": "w00_IntroToScriptsAndData.html#exercise-continued",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "9.3 Exercise (continued)",
+    "text": "9.3 Exercise (continued)\n&gt; z &lt;- rnorm(length(x))     # vector of standard normal random numbers\n&gt; mat &lt;- cbind(x, y, z)     # merge vectors of same length into a matrix\n&gt; dim(mat)                  # see the dimensions of the matrix\n&gt; summary(mat)              # get statistics of each matrix column\n&gt; class(mat)                # evaluate object type\n[1] \"matrix\"\n&gt; df &lt;- data.frame(x=x, xlog=y, rand=z)  # build dataframe\n&gt; class(df)\n[1] \"data.frame\"",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  },
+  {
+    "objectID": "w00_IntroToScriptsAndData.html#data-frames-1",
+    "href": "w00_IntroToScriptsAndData.html#data-frames-1",
+    "title": "Introduction to Scripts in the RStudio-Environment",
+    "section": "10.1 Data-Frames",
+    "text": "10.1 Data-Frames\n\nData-frames can pool several vectors of same length but potentially of different data-types together.\nAlmost all statistical analysis functions are defined on data-frames.\n\n&gt; catName &lt;- c(\"Austin\", \"Gretchen\", \"Charlie\")  # character vector\n&gt; catAge &lt;- c(9, 10, 20)                         # numeric vector\n&gt; my.data &lt;- data.frame(Name=catName, Age=catAge)  # Define data-frame\n&gt; my.data                                        # Show data-frame\n     Name Age\n1  Austin   9\n2 Gretchen  10\n3 Charlie  20\n\nThe variables catName and catAge are stored now in the data frame my.data under new names Name and Age\nTo access individual variables in the data-frame several commands can be used:\n\n&gt; my.data$Name\n&gt; my.data[\"Name\"]\n&gt; my.data[1]\n&gt; with(my.data, Name)\n&gt; my.data[ , \"Name\"]\n&gt; my.data[ , 1]",
+    "crumbs": [
+      "Home",
+      "EPPS6326",
+      "Wk00-Introduction to Scripts in the RStudio-Environment"
+    ]
+  }
+]
